@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Quest</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="../src/components/styles/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">CareerQuest</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src//components/pages/JobListing.html"
+                >Job Listings</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src//components/pages/companyProfile.html"
+                >Company Profiles</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="../src//components/pages/userProfile.html"
+                >User Profile</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src//components/pages/aboutUs.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src//components/pages/contactUs.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn-login"
+                href="../src//components/pages/Login.html"
+                >Login/Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <h1>Find Your Dream Job</h1>
+          <p>Explore thousands of job listings from top companies.</p>
+          <div class="hero-search">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Job title, keywords, or company"
+            />
+            <input type="text" class="form-control" placeholder="Location" />
+            <button class="btn-search">Search Jobs</button>
+            <button class="btn-post-job">Post a Job</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Job Listings -->
+    <section class="featured-jobs section">
+      <h2>Featured Jobs</h2>
+      <div class="job-cards">
+        <div class="job-card">
+          <h3>Software Engineer</h3>
+          <p>Company XYZ</p>
+          <p>San Francisco, CA</p>
+          <p>Short description of the job.</p>
+          <button class="btn-apply">Apply Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Job Listings</a>
+        <a href="#">Company Profiles</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="footer-contact">
+        <p>Email: contact@careerquest.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Main Street, Anytown, USA</p>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
