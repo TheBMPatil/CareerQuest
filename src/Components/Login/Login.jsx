@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css';
+// import './Login.css';
 
 const Login = () => {
   const [userType, setUserType] = useState('jobseeker'); // State to manage user type

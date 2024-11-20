@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Home/Navbar/Navbar';
-import './About.css'
+// import './About.css'
 import team1 from '../../assets/team1.png'
 import team2 from '../../assets/team2.png'
 import team3 from '../../assets/team3.png'

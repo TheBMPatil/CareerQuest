@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Ensure React Router is installed and configured
 import menuBtn from '../../../assets/menu-icon.png';  // Ensure this path is correct
-import './Navbar.css'    
+// import './Navbar.css'    
 
 export const Navbar = () => {
     return (
