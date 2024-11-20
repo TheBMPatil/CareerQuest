@@ -5,11 +5,13 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Footer from './Components/Home/Footer/Footer';
 import Login from './Components/Login/Login';
-
+import './App.css'
 function App() {
   return (
     <Router>
+      <div className="app">
       {/* <Home /> */}
+      
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,6 +20,7 @@ function App() {
         {/* Add more routes here as needed */}
       </Routes>
       <Footer />
+    </div>
     </Router>
   );
 }

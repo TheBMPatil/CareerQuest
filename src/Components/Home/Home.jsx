@@ -7,9 +7,18 @@ import './Home.css';
 const Home = () => {
     return (
         <>
+        <div className="home" >
+
             <Navbar />
             <Hero />
+           
             <FeaturedJobs />
+            <FeaturedJobs />
+            <FeaturedJobs />
+            <FeaturedJobs />
+            <FeaturedJobs />
+            <FeaturedJobs />
+        </div>
         </>
     );
 }
