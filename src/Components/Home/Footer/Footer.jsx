@@ -9,7 +9,7 @@ const Footer = () => {
                 <Link to="/job-listings">Job Listings</Link>
                 <Link to="/company-profiles">Company Profiles</Link>
                 <Link to="/About">About Us</Link>
-                <Link to="/contact-us">Contact Us</Link>
+                <Link to="/ContactUs">Contact Us</Link>
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/terms-of-service">Terms of Service</Link>
             </div>

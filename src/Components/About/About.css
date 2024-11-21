@@ -147,7 +147,7 @@
   }
   
   /* Responsive Styling */
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .about-hero h1 {
       font-size: 36px;
     }
@@ -164,6 +164,14 @@
     .team-member {
       width: 80%;
       margin-bottom: 40px;
+    }
+  
+    .team-member img{
+        width: 50%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
     }
   }
   

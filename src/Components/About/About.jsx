@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Home/Navbar/Navbar';
 import './About.css';
-
+import { Link } from 'react-router-dom';
 import bhagvat from './team/Bhagvat.jpg'
 import ajay from './team/Ajay.png'
 import ankush from './team/Ankush.jpg'
@@ -28,23 +28,23 @@ function About() {
                     <div className="container">
                         <h2>Who We Are</h2>
                         <p>
-                            At Career Quest, we are passionate about connecting job seekers with exceptional career opportunities. 
-                            Our platform is designed with the belief that finding the right job should be intuitive, accessible, 
-                            and empowering for everyone. We are committed to providing a seamless experience that bridges the gap 
+                            At Career Quest, we are passionate about connecting job seekers with exceptional career opportunities.
+                            Our platform is designed with the belief that finding the right job should be intuitive, accessible,
+                            and empowering for everyone. We are committed to providing a seamless experience that bridges the gap
                             between talent and opportunity.
                         </p>
 
                         <h2>Our Mission</h2>
                         <p>
-                            We aim to be the leading platform for individuals to explore diverse career paths while supporting 
-                            organizations in efficiently sourcing and hiring top talent. Our mission is fueled by innovation, 
+                            We aim to be the leading platform for individuals to explore diverse career paths while supporting
+                            organizations in efficiently sourcing and hiring top talent. Our mission is fueled by innovation,
                             as we continue to redefine the job search experience with technology and human-centric design.
                         </p>
 
                         <h2>Our Vision</h2>
                         <p>
-                            Our vision is to revolutionize how job seekers and organizations connect, apply, and secure employment 
-                            through cutting-edge technology, personalized job matching, and a user-friendly experience that puts 
+                            Our vision is to revolutionize how job seekers and organizations connect, apply, and secure employment
+                            through cutting-edge technology, personalized job matching, and a user-friendly experience that puts
                             people first.
                         </p>
 
@@ -101,7 +101,7 @@ function About() {
                     <div className="container">
                         <h2>Want to Learn More?</h2>
                         <p>Explore our platform, or get in touch with us to discover how Career Quest can help you achieve your career goals!</p>
-                        <a href="/contact-us" className="cta-btn">Contact Us</a>
+                        <Link to="/ContactUs" className="cta-btn">Contact Us</Link>
                     </div>
                 </section>
             </div>
