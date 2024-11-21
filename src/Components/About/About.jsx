@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from '../Home/Navbar/Navbar';
 import './About.css';
 
-import bhagvat from './team/bhagvat.jpg'
-import ajay from './team/ajay.png'
-import ankush from './team/ankush.jpg'
-import pravin from './team/pravin.jpg'
-import amol from './team/amol.jpg'
+import bhagvat from './team/Bhagvat.jpg'
+import ajay from './team/Ajay.png'
+import ankush from './team/Ankush.jpg'
+import pravin from './team/Pravin.jpg'
+import amol from './team/Amol.jpg'
 
 
 function About() {
