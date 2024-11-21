@@ -1,0 +1,30 @@
+/* Featured Jobs Section */
+.featured-jobs {
+  padding: 60px 0;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.featured-jobs h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.job-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .job-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+}

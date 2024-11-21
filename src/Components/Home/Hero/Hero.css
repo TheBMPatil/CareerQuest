@@ -1,0 +1,108 @@
+/* Hero Section */
+.hero {
+    background-image: url('../../../assets/Hero/Hero.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Centers the image */
+    color: white;
+    padding: 100px 0; /* Add padding for top and bottom */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Add an overlay to darken the background image slightly */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: -1; /* Places the overlay behind the text */
+}
+
+.hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Hero Search Section */
+.hero-search {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.hero-search .form-control {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50px; /* Rounded inputs */
+    border: none;
+    margin-bottom: 10px;
+}
+
+.hero-search .btn-search,
+.hero-search .btn-post-job {
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 50px; /* Rounded buttons */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-search .btn-search {
+    background-color: #28a745; /* Green button */
+    color: white;
+}
+
+.hero-search .btn-search:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.hero-search .btn-post-job {
+    background-color: #ffc107; /* Yellow button */
+    color: white;
+}
+
+.hero-search .btn-post-job:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-search {
+        flex-direction: column;
+    }
+
+    .hero-search .form-control {
+        width: 100%;
+    }
+}

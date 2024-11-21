@@ -1,0 +1,49 @@
+/* JobCard.css */
+.job-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-card .company-name,
+.job-card .location {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.job-card .job-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.btn-apply {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-apply:hover {
+  background-color: #0056b3;
+}

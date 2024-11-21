@@ -1,0 +1,109 @@
+/* Navbar CSS */
+
+/* Navbar for large screens (desktop) */
+.navbar {
+    background-color: #007bff; /* Blue background for the navbar */
+    position: fixed;  /* Makes the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;  /* Ensure it stays on top of other content */
+    width: 100%;  /* Full-width navbar */
+    padding: 15px 20px;  /* Add some padding for better spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Optional: Adds a shadow */
+}
+
+/* Style for the navbar links */
+.navbar .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.navbar .nav-link:hover {
+    color: #ddd;
+}
+
+/* Style for the sidebar (mobile screens) */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;  /* Initially hidden offscreen */
+    width: 250px;
+    height: 100%;
+    background-color: #007bff; /* Blue background for the sidebar */
+    transition: left 0.3s ease; /* Smooth sliding effect */
+    z-index: 9999;
+    padding-top: 60px; /* Space for the brand/logo */
+}
+
+/* When the sidebar is open */
+.sidebar.open {
+    left: 0;  /* Show the sidebar by moving it into view */
+}
+
+/* Style the navbar links inside the sidebar */
+.sidebar .navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .nav-item {
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.sidebar .nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sidebar .nav-link:hover {
+    color: #ddd;
+}
+
+/* Adjust the button to open the sidebar */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+/* Optional: Add styles for the menu icon */
+.navbar-toggler-icon img {
+    filter: brightness(0) invert(1);
+}
+
+/* Ensure the sidebar is hidden on larger screens */
+@media (min-width: 768px) {
+    .sidebar {
+        display: none; /* Hide sidebar on larger screens */
+    }
+    
+    /* Make sure the regular navbar is visible on large screens */
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    /* Adjust navbar padding and layout for larger screens */
+    .navbar {
+        padding: 15px 30px; /* Increased padding on larger screens */
+    }
+}
+
+/* Add padding or margin to prevent content overlap with the navbar */
+body {
+    margin-top: 76px;  /* Add top margin to body to create space below navbar */
+}
+
+/* Alternatively, for specific content areas, you can add: */
+.content {
+    margin-top: 80px;  /* Ensure content starts below the navbar */
+}
