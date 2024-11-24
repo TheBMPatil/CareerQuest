@@ -7,6 +7,13 @@ import Footer from './Components/Home/Footer/Footer';
 import Login from './Components/Login/Login';
 import ContactUs from './Components/ContactUs/ContactUs';
 import JobListings from './Components/JobListings/JobListings';
+import PrivacyPolicy from './Components/PrivacyPolicy/PrivacyPolicy';
+import TermsOfService from './Components/Terms/TermsOfService';
+
+
+
+
+
 
 import './App.css'
 function App() {
@@ -21,6 +28,8 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/JobListings" element={<JobListings />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/TermsOfService" element={<TermsOfService />} />
 
         {/* Add more routes here as needed */}
       </Routes>

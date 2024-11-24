@@ -1,0 +1,42 @@
+.terms-of-service {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .terms-of-service h1 {
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .terms-of-service section {
+    margin-bottom: 20px;
+  }
+  
+  .terms-of-service h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .terms-of-service p,
+  .terms-of-service ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .terms-of-service ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .terms-of-service li {
+    margin-bottom: 10px;
+  }
+  
+  .terms-of-service strong {
+    font-weight: bold;
+  }
+  

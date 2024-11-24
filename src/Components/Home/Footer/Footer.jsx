@@ -10,8 +10,8 @@ const Footer = () => {
                 <Link to="/company-profiles">Company Profiles</Link>
                 <Link to="/About">About Us</Link>
                 <Link to="/ContactUs">Contact Us</Link>
-                <Link to="/privacy-policy">Privacy Policy</Link>
-                <Link to="/terms-of-service">Terms of Service</Link>
+                <Link to="/PrivacyPolicy">Privacy Policy</Link>
+                <Link to="/TermsOfService">Terms of Service</Link>
             </div>
             <div className="footer-contact">
                 <p>Email: contact@careerquest.com</p>
