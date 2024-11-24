@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className="footer-links">
                 <Link to="./">Home</Link>
-                <Link to="/job-listings">Job Listings</Link>
+                <Link to="/JobListings">Job Listings</Link>
                 <Link to="/company-profiles">Company Profiles</Link>
                 <Link to="/About">About Us</Link>
                 <Link to="/ContactUs">Contact Us</Link>
@@ -19,9 +19,16 @@ const Footer = () => {
                 <p>Address: 123 Main Street, Anytown, USA</p>
             </div>
             <div className="footer-social">
-                <a href="#"><i className="fab fa-linkedin"></i></a>
-                <a href="#"><i className="fab fa-facebook"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/thebmpatil/" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/bhagvat_mutthe_/" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/BhagvatMutthe" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-twitter"></i>
+                </a>
+
             </div>
         </footer>
     );

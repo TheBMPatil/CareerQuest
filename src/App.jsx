@@ -6,7 +6,7 @@ import About from './Components/About/About';
 import Footer from './Components/Home/Footer/Footer';
 import Login from './Components/Login/Login';
 import ContactUs from './Components/ContactUs/ContactUs';
-
+import JobListings from './Components/JobListings/JobListings';
 
 import './App.css'
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/JobListings" element={<JobListings />} />
 
         {/* Add more routes here as needed */}
       </Routes>

@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.17.0",
     "@formspree/react": "^2.5.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
